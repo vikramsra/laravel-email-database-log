@@ -1,6 +1,6 @@
 <?php
 
-namespace ShvetsGroup\LaravelEmailDatabaseLog;
+namespace vikramsra\LaravelEmailDatabaseLog;
 
 use Carbon\Carbon;
 use Symfony\Component\Mime\Email;
