@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^9.0",
+        "illuminate/support": "^10.0",
         "doctrine/dbal": "^3.3",
         "nesbot/carbon": "^2.0"
     },
