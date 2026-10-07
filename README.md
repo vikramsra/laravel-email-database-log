@@ -2,6 +2,11 @@
 
 A simple database logger for all outgoing emails sent by Laravel website. Thanks to Shvets Group for this wonderful extension 
 
+# Requirements
+
+- PHP 8.2+
+- Laravel 12
+
 # Installation
 
 ## Step 1: Composer
@@ -14,13 +19,13 @@ composer require vikramsra/laravel-email-database-log
 
 ## Step 2: Configuration
 
-You can skip this step if your version of Laravel is 5.5 or above. Otherwise, you have to add the following to your config/app.php in the providers array:
+The service provider is registered automatically via package discovery. If you have disabled package discovery, add the following to the providers list in `bootstrap/providers.php`:
 
 ```php
-'providers' => [
+return [
     // ...
     vikramsra\LaravelEmailDatabaseLog\LaravelEmailDatabaseLogServiceProvider::class,
-],
+];
 ```
 
 ## Step 3: Migration

@@ -1,8 +1,8 @@
 <?php
 
-namespace ShvetsGroup\LaravelEmailDatabaseLog\Tests;
+namespace vikramsra\LaravelEmailDatabaseLog\Tests;
 
-use ShvetsGroup\LaravelEmailDatabaseLog\LaravelEmailDatabaseLogServiceProvider;
+use vikramsra\LaravelEmailDatabaseLog\LaravelEmailDatabaseLogServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
